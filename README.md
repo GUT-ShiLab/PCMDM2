@@ -12,7 +12,7 @@ The PCMDM2 framework comprises three main steps:
 
 (iii) **Metabolite abundance prediction:** The fused representation is used to predict the abundance of each target metabolite.
 
-<img width="3028" height="2163" alt="Figure 1 workflow of PCMDM2" src="[https://github.com/user-attachments/assets/8d67aca0-8b9e-437f-b5ad-1bdda0070193](https://github.com/GUT-ShiLab/PCMDM2/blob/main/Figure.1%20workflow%20of%20PCMDM2..jpg)" />
+<img width="3028" height="2163" alt="Figure 1 workflow of PCMDM2" src="https://github.com/GUT-ShiLab/PCMDM2/blob/main/Figure.1%20workflow%20of%20PCMDM2..jpg" />
 
 
 

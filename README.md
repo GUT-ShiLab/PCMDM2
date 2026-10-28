@@ -108,17 +108,17 @@ The script evaluates three representations of the external cohort: measured micr
 
 ### 5. Reproduce the figures
 
-The plotting scripts in `utils/` can be run independently. They use the numerical results reported in the manuscript, stored directly in the scripts, to reproduce the figures without retraining the model.
+The plotting scripts in utils/ can be run independently. They use the numerical results reported in the manuscript, stored directly in the scripts, to reproduce the figures without retraining the model.
 
 | Script                                      | Figure                                                       |
 | ------------------------------------------- | ------------------------------------------------------------ |
-| `plot_dims_search.py`                       | Impact of different CNN and MLP structural parameters on predictive performance |
-| `plot_result_test.py`                       | Metabolomic profile prediction performance of eight methods in the same-disease cross-cohort validation task. |
-| `plot_result_xr.py                          | Comparison of metabolic profile prediction performance across different data types and models |
-| `plot_kernel_size_dataset_allscc.py`        | Effect of kernel size on PCMDM2 performance in the construction of distantly microbial features. |
-| `plot_traversal_strategy_dataset_allscc.py  | Effect of different phylogenetic tree traversal strategies on PCMDM2 performance. |
-| `plot_all_scc_cross_dataset_bar.py`         | Performance of eight methods in cross-disease cohort prediction tasks. |
-| `plot_ibd_cross_cohort_kegg_vs_non_kegg.py` | KEGG annotation-stratified evaluation of eight methods in the same-disease cross-cohort validation task. |
+| plot_dims_search.py                        | Impact of different CNN and MLP structural parameters on predictive performance |
+| plot_result_test.py                        | Metabolomic profile prediction performance of eight methods in the same-disease cross-cohort validation task. |
+| plot_result_xr.py                          | Comparison of metabolic profile prediction performance across different data types and models |
+| plot_kernel_size_dataset_allscc.py        | Effect of kernel size on PCMDM2 performance in the construction of distantly microbial features. |
+| plot_traversal_strategy_dataset_allscc.py  | Effect of different phylogenetic tree traversal strategies on PCMDM2 performance. |
+| plot_all_scc_cross_dataset_bar.py         | Performance of eight methods in cross-disease cohort prediction tasks. |
+| plot_ibd_cross_cohort_kegg_vs_non_kegg.py | KEGG annotation-stratified evaluation of eight methods in the same-disease cross-cohort validation task. |
 
 
 
